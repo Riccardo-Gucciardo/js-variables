@@ -6,18 +6,19 @@ const hello = 'hello'; // NON MODIFICARE QUESTA RIGA
 // 1. Cerca un carattere in una stringa
 // Stampa l'INDICE con cui viene trovato
 // il carattere Y nella variabile city
-const cityIndex = text.charAt(3);
-console.log(cityIndex); // Output: 4
+const text = "cityIndex";
+console.log(text.charAt (3)); // Output: 4
 
 // 2. Sottostringhe 
 // Stampa la sottostringa "York" dalla variabile city
-const citySubstring = '';
-console.log(citySubstring); // Output: "York"
+const str = 'newyork';
+console.log(str.substr(3,4)); // Output: "York"
 
 // 3. Sostituzione
 // Sostituisci 'York' con 'Delhi'
-const cityReplaced = '';
-console.log(cityReplaced); // Output:  "New Delhi"
+const cityReplaced = 'york';
+console.log(cityReplaced).innerHTML =
+text.replace("york","delhi"); // Output:  "New Delhi"
 
 // 4. Template literal
 // Concatena due stringhe usando la sintassi `${var}`
